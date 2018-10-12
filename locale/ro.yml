@@ -2,31 +2,35 @@
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
 ###########################################################################################
+#Traducerea in romana a fost facuta de Wreeper. Plugin-ul original poate fi gasit aici: https://dev.bukkit.org/projects/skyblock
+#The translate in romanian has been done by Wreeper. The original plugin can be found here: https://dev.bukkit.org/projects/skyblock
+
+#THIS IS ON MAINTENANCE. THIS IS NOT BEEN FINISHED YET. DON'T USE IT RIGHT NOW.
 
 --- 
-acidBottle: "Acid Bottle"
-acidBucket: "Acid Bucket"
+acidBottle: "Sticluta cu Acid"
+acidBucket: "Galeata cu Acid"
 acidLore: |
-    Do
-    not drink!
-    Beware!
+    Nu
+    bea asta!
+    Atentie!
 
 adminDeleteIsland: 
-  error: "Use &ldeleteisland confirm &r&cto delete the island you are on."
-  noid: "Cannot identify island."
-  use: "Use &ldelete [name] &r&cto delete the player instead."
+  error: "Foloseste &ldeleteisland confirm &r&cca sa stergi insula pe care esti."
+  noid: "Nu se poate identifica insula."
+  use: "Foloseste &ldelete [nume] &r&cca sa stergi jucatorul in schimb.."
 adminHelp: 
-  add: "adds player to leader's team"
-  addrange: "adds to or substracts from the island's protection range"
-  clearreset: "resets the island reset limit for player"
-  clearresetall: "resets the island reset limit for all players"
-  cobblestats: "displays magic cobble generation stats"
-  completeChallenge: "marks a challenge as complete"
-  delete: "delete an island (removes blocks)."
-  help: "Admin Commands:"
-  info: "info for the given player"
-  infoisland: "provide info on the nearest island"
-  kick: "removes player from any team"
+  add: "adauga jucatorul in echipa liderului"
+  addrange: "adauga mai sau scade mai putin /mult din protectia insulei"
+  clearreset: "reseteaza limitariile de resetare a insulei pentru un player"
+  clearresetall: "reseteaza limitariile de resetare a insulei pentru toti"
+  cobblestats: "arata statisticiile despre generarea magica de cobblestone"
+  completeChallenge: "marcheaza o provocare ca completata"
+  delete: "sterge o insula (sterge blocuriile)."
+  help: "Comenzi administrative:"
+  info: "informatii pentru playerul scris"
+  infoisland: "priveste informatiile celei mai apropriate insule"
+  kick: "sterge playerul din orice echipa"
   level: "provide detailed island level report on player"
   listChallengeResets: "lists challenge reset schedules, if any"
   lock: "locks/unlocks player's island"
@@ -166,32 +170,32 @@ boats:
   warning: "It's unsafe to exit the boat right now..."
 challenges: 
   colors: "Challenges will have different colors depending on if they are:"
-  complete: "Complete"
-  completeNotRepeatable: "Completed(not repeatable)"
-  completeRepeatable: "Completed(repeatable)"
-  completedtimes: "Completed [donetimes] out of [maxtimes]"
-  errorIslandLevel: "Your island must be level [level] to complete this challenge!"
-  errorItemsNotThere: "All required items must be close to you on your island!"
-  errorNotCloseEnough: "You must be standing within [number] blocks of all required items."
-  errorNotEnoughItems: "You do not have enough required item(s)"
-  errorNotOnIsland: "You must be on your island to do that!"
-  errorRewardProblem: "There was a problem giving your reward. Ask Admin to check log!"
-  erroryouaremissing: "You are missing"
-  expReward: "Exp reward"
-  firstTimeRewards: "First time reward(s)"
+  complete: "Completat"
+  completeNotRepeatable: "Completat(nerepetabil)"
+  completeRepeatable: "Completat(repetabil)"
+  completedtimes: "Completat de [donetimes] ori din [maxtimes]"
+  errorIslandLevel: "Insula ta trebuie sa fie de level [level] ca sa completezi aceasta provocare!"
+  errorItemsNotThere: "Itemele tale trebuie sa fie aproape de tine ca sa completezi provocarea!"
+  errorNotCloseEnough: "Trebuie sa stai minim [number] blocuri departe de acele iteme."
+  errorNotEnoughItems: "Nu ai destule cerute item(e)"
+  errorNotOnIsland: "Trebuie sa fii pe insula ta ca sa faci asta!"
+  errorRewardProblem: "A fost o problema cand am incercat sa-ti dam premiul. Intreaba fondatorul!"
+  erroryouaremissing: "Iti lipseste"
+  expReward: "Recompensa in XP"
+  firstTimeRewards: "Primele(primul) premiu(premii)"
   guititle: "ASkyBlock Challenges"
   help1: "Use /c <name> to view information about a challenge."
   help2: "Use /c complete <name> to attempt to complete that challenge."
-  incomplete: "Incomplete"
+  incomplete: "Incomplet"
   invalidChallengeName: "Invalid challenge name! Use /c help for more information"
   itemTakeWarning: "All required items are taken when you complete this challenge!"
-  level: "Level"
+  level: "Nivel"
   maxreached: "Max reached [donetimes] out of [maxtimes]"
   moneyReward: "Money reward"
-  name: "Challenge Name"
-  nameHasCompleted: "[name] has completed the [challenge] challenge!"
+  name: "Numele Provocarii"
+  nameHasCompleted: "[name] a completat provocarea [challenge]!"
   navigation: "Click to see [level] challenges!"
-  notRepeatable: "This Challenge is not repeatable!"
+  notRepeatable: "Aceasta provocare nu este repetabila!"
   repeatRewards: "Repeat reward(s)"
   rewards: "Reward(s)"
   toComplete: "Complete [challengesToDo] more [thisLevel] challenges to unlock this level!"
